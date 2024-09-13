@@ -18,7 +18,7 @@ class Lab:
             with open(filename, 'w') as file:
                 
                 # Write your code here so that you should be able to write the content into the file
-
+                file.write(content)
 
                 # Check if anything was actually written to the file
                 if file.tell() > 0:
